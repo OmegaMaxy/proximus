@@ -34,6 +34,13 @@ Een tuple is een onveranderlijk data type dat lijkt op een array
 Voorbeeld: ('John', 'Jenny')
 ```
 
+**Wat is lambda?**
+
+```
+Lambda wordt gebruikt om tijdens een functie ( bv. sorted() ) gebruikt om iets met de waarde te doen, en het vervolgens te veranderen.
+Aan het einde van de functie, wordt de veranderde waarde teruggegeven aan de functie. Het resultaat is veranderd.
+```
+
 
 
 # Technieken
