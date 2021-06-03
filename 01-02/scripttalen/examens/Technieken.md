@@ -1,3 +1,12 @@
+# Inhoudsopgave
+
+- How to use
+- FAQ
+- Technieken
+- Snelheid van een script
+- Online Tools
+- Credits
+
 # How to use
 
 A.d.h.v. CTRL+F, kan je heel makkelijk op titels zoeken. Bv: Hoe sorteer ik? Dan zoek je op **'sorteren'**.
@@ -307,7 +316,11 @@ for _, temps in sorted(data, key=lambda p: p[0]):
 
 
 
-# Snelheid
+# Snelheid van een script
+
+Techniek: eerst een deel van de waardes in een dictionary steken, en later de dictionary raadplegen.
+
+``Source: examenAug/cracked``
 
 ```python
 import hashlib
