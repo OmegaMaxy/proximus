@@ -309,3 +309,6 @@ with open('hashed.txt') as f:
 * https://regexr.com/
 * https://realpython.com/
 * https://www.w3schools.com/
+
+``Made by dazzy 2021`
+
