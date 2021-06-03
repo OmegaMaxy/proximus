@@ -310,5 +310,5 @@ with open('hashed.txt') as f:
 * https://realpython.com/
 * https://www.w3schools.com/
 
-``Made by dazzy 2021`
+``Made by dazzy 2021``
 
