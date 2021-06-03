@@ -1,3 +1,7 @@
+# How to use
+
+A.d.h.v. CTRL+F, kan je heel makkelijk op titels zoeken. Bv: Hoe sorteer ik? Dan zoek je op **'sorteren'**.
+
 # FAQ
 
 **Wat is dict()?**
