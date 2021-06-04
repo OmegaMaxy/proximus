@@ -15,18 +15,21 @@ A.d.h.v. CTRL+F, kan je heel makkelijk op titels zoeken. Bv: Hoe sorteer ik? Dan
 
 **Wat is dict()?**
 
-```
-Dict is een functie om keys en values uit een data type te halen om ze vervolgens aan elkaar toe te wijzen.
+```python
+Dict is een functie om keys en values uit een data type te halen, om ze vervolgens aan elkaar toe te wijzen.
 Voorbeeld:
 a = (('John', 'Jenny'), ('John2', 'Jenny2'))
 print(dict(a))
 Resultaat: {'John': 'Jenny', 'John2': 'Jenny2'}
 Andere syntax: result = {}
+
+Een dictionary met een lengte van minstens 1, bevat altijd een key en een value.
+De keys zijn uniek, oftewel getallen, oftewel tekst (bv. namen).
 ```
 
 **Wat is zip()?**
 
-```
+```python
 Zip is een functie om waardes op dezelfde index van meerdere arrays in 1 tuple te steken.
 Voorbeeld:
 a = ("John", "Charles", "Mike")
@@ -38,16 +41,32 @@ Resultaat: (('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
 
 **Wat is een tuple?**
 
-```
+```python
 Een tuple is een onveranderlijk data type dat lijkt op een array
 Voorbeeld: ('John', 'Jenny')
 ```
 
 **Wat is lambda?**
 
-```
+```python
 Lambda wordt gebruikt om tijdens een functie ( bv. sorted() ) gebruikt om iets met de waarde te doen, en het vervolgens te veranderen.
 Aan het einde van de functie, wordt de veranderde waarde teruggegeven aan de functie. Het resultaat is veranderd.
+```
+
+**Verschillende soorten datatypes**
+
+```python
+Lists
+a = ['b', 'c']
+
+Tuples
+a = ('b', 'c')
+
+Dictionaries
+a = {'b' => 'c'}
+
+Sets
+a = {'b', 'c'}
 ```
 
 
