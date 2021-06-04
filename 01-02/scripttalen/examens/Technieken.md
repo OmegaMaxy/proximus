@@ -69,9 +69,36 @@ Sets
 a = {'b', 'c'}
 ```
 
+**Wat zijn die sterretjes in de code (*)?**
+
+``Source: old-exams/multiple-choice (oefeningen)``
+
+```python
+* args
+** kwargs
+
+Voorbeeld: 
+# Bestand: Rick Astley ,e,d,b,b,c,d,d,d,a,d,c,a,d,c,d,a,d
+for student, *answers in reader:
+    score = sum( 1 for solution, answer in zip(solutions, answers) if solution == answer )
+    print(f'{student} {score}')
+
+In dit geval is 
+student = Rick Astley
+en is
+*answers = [e,d,b,b,c,d,d,d,a,d,c,a,d,c,d,a,d]
+**answers zou (in een andere situatie) dan {'e': 1, 'd': 2, 'c': 8} zijn.
+
+Tot slot:
+* => alle resterende waardes
+** => alle resterende keys met hun waardes
+```
+
 
 
 # Technieken
+
+
 
 ## Simpel - drop last
 
@@ -337,7 +364,7 @@ for _, temps in sorted(data, key=lambda p: p[0]):
 
 # Snelheid van een script
 
-Techniek: eerst een deel van de waardes in een dictionary steken, en later de dictionary raadplegen.
+Techniek: eerst een deel van de waardes in een dictionary steken, en later de dictionary raadplegen. Dictionaries zijn sneller dan andere datatypes.
 
 ``Source: examenAug/cracked``
 
@@ -373,5 +400,5 @@ with open('hashed.txt') as f:
 * https://realpython.com/
 * https://www.w3schools.com/
 
-``Made by dazzy 2021``
+``Made by dazzy 2021 `` :octocat:
 
