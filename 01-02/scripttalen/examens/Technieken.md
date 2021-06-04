@@ -400,5 +400,5 @@ with open('hashed.txt') as f:
 * https://realpython.com/
 * https://www.w3schools.com/
 
-``Made by dazzy 2021 `` :octopus: :octocat
+``Made by dazzy 2021 `` :octopus: :octocat:
 
