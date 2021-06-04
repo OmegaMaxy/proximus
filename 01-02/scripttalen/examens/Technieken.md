@@ -1,4 +1,4 @@
-# Inhoudsopgave
+# :sparkles: ​Inhoudsopgave 
 
 - How to use
 - FAQ
@@ -7,11 +7,11 @@
 - Online Tools
 - Credits
 
-# How to use
+# 🔖How to use
 
 A.d.h.v. CTRL+F, kan je heel makkelijk op titels zoeken. Bv: Hoe sorteer ik? Dan zoek je op **'sorteren'**.
 
-# FAQ
+# ❔  FAQ
 
 **Wat is dict()?**
 
@@ -96,7 +96,7 @@ Tot slot:
 
 
 
-# Technieken
+# 📔 Technieken
 
 
 
@@ -362,7 +362,7 @@ for _, temps in sorted(data, key=lambda p: p[0]):
 
 
 
-# Snelheid van een script
+# 💨 Snelheid van een script
 
 Techniek: eerst een deel van de waardes in een dictionary steken, en later de dictionary raadplegen. Dictionaries zijn sneller dan andere datatypes.
 
@@ -394,11 +394,11 @@ with open('hashed.txt') as f:
 
 
 
-# Online Tools
+# 🌐 Online Tools
 
 * https://regexr.com/
 * https://realpython.com/
 * https://www.w3schools.com/
 
-``Made by dazzy 2021 `` :octocat:
+``Made by dazzy 2021 `` :octopus: :octocat
 
