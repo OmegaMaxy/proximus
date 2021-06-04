@@ -18,7 +18,7 @@ A.d.h.v. CTRL+F, kan je heel makkelijk op titels zoeken. Bv: Hoe sorteer ik? Dan
 ```
 Dict is een functie om keys en values uit een data type te halen om ze vervolgens aan elkaar toe te wijzen.
 Voorbeeld:
-a = (('John', 'Jenny'), a = ('John2', 'Jenny2'))
+a = (('John', 'Jenny'), ('John2', 'Jenny2'))
 print(dict(a))
 Resultaat: {'John': 'Jenny', 'John2': 'Jenny2'}
 Andere syntax: result = {}
