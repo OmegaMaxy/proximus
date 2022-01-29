@@ -94,6 +94,12 @@ Tot slot:
 ** => alle resterende keys met hun waardes
 ```
 
+**Hoe sorteer je een array?**
+
+```
+jouw_array.sort(key= lambda x: x[0], reverse=True)
+```
+
 
 
 # 📔 Technieken
